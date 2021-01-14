@@ -1,8 +1,57 @@
-﻿@{
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@model List<IO.Swagger.Model.CurrencyPairNameValue>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <table class="table">
+        <tbody>
+
+            @foreach (var currencyPair in Model)
+            {
+                <tr class="table-row">
+                    <td id="currencyName">@currencyPair.Code<span class="currencyDescription">@currencyPair.Name</span></td>
+
+                    @{ var value = String.Format("{0}{1}{2}",
+                         currencyPair.LocalCurrencySymbol,
+                         string.Empty,
+                         currencyPair.Values.LastOrDefault().Value);}
+                    <td>
+                        @value
+                    </td>
+                    @{
+                        var last = currencyPair.Values.LastOrDefault().Value;
+                        var first = currencyPair.Values.First().Value;
+                        var change = (last - first) / last;
+                        var changeRate = Math.Round((decimal)change * 10000) / 100;
+                        var changeRateFormatted = String.Format("{0}{1}{2}", "%", String.Empty, changeRate);
+
+                    }
+                    <td>@changeRateFormatted </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+    
+    <h3>@localizer["TitleWhatIsTola"]</h3>
+    <p>@localizer["DescriptionWhatIsTola"]</p>
+
+    <h3>@localizer["TitleWhatIsAnOunce"]</h3>
+    <p>@localizer["DescriptionWhatIsAnOunce"]</p>
+
+    <h3>@localizer["TitleTolaGrams"]</h3>
+    <p>@localizer["DescriptionTolaGrams"]</p>
+
+    <h3>@localizer["TitleKgTola"]</h3>
+    <p>@localizer["DescriptionKgTola"]</p>
+
+    <h3>@localizer["TitleTolaCountries"]</h3>
+    <p>@localizer["DescriptionTolaCountries"]</p>
+
+
+
 </div>
+

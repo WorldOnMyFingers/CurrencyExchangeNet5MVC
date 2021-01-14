@@ -12,4 +12,12 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+    <data name="MetaDescription" xml:space="preserve">
+    <value>
+            أسعار صرف العملات الحية التي تحتوي على USD إلى PKR ، و USD إلى Euro ، و USD إلى TRY ، و USD إلى Inr ، و USD
+           إلى TSH ، سعر الذهب ، سعر التولا ، الدولار الأمريكي إلى الريال السعودي ، الدولار الأمريكي إلى الدرهم الإماراتي ، السبائك الذهبية والعديد من العملات الأخرى.
+        </value>
+       </data>
+    
 </root>

@@ -12,4 +12,64 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+    <data name="TitleWhatIsTola" xml:space="preserve">
+    <value>O que é Tola?</value>
+  </data>
+    <data name="DescriptionWhatIsTola" xml:space="preserve">
+    <value>Tola, também escrito como tolah ou tole, é um termo hindi usado na Índia e em alguns outros países asiáticos para
+            medir ouro. No momento, um tola
+            é equivalente a 10 gramas de ouro. Uma vez usado por antigos indianos e sul da Ásia, o peso de uma tola hoje
+            é igual a 180 grãos troy (11,6638038 gramas) ou 3/8 onça troy.
+            Durante o governo da Índia britânica, o tola era usado como unidade básica de massa para pesar e medir os grãos. Em
+            naquela época, um tola era igual a 175,90 grãos troy (0,97722222 tolas britânicas ou 11,33980925 gramas).
+            A raiz do termo tola remonta à era védica, quando costumava pesar sementes e outros grãos. O termo
+            Tola é derivado da palavra sânscrita 'Tol' que significa peso ou pesagem. Tradicionalmente, o peso exato de
+            a tola costumava variar conforme o peso da tola era determinado pelo peso de 100 sementes de Ratti.
+            Várias moedas pré-coloniais, incluindo a de Akbar, o Grande (1556–1605), pesavam um tola. O primeiro
+            rupia, cunhada por Sher Shah Suri (1540-1545), pesa 178 grãos troy, ou cerca de 1 por cento menos do que os britânicos
+            tola.
+            Tola foi oficialmente substituído por unidades métricas em 1956, no entanto, ainda é usado como denominação para
+            barras de ouro em países como Índia, Bangladesh, Nepal, Paquistão e Cingapura. Entre estes, dez tola bar é
+            o metal mais comumente negociado.</value>
+  </data>
+  
+    
+    <data name="TitleWhatIsAnOunce" xml:space="preserve">
+    <value>O que é uma onça?</value>
+  </data>
+    <data name="DescriptionWhatIsAnOunce" xml:space="preserve">
+    <value>Uma onça é uma unidade de medida usada para pesar metais preciosos que remonta à Idade Média.
+             Usado originalmente em Troyes, França, uma onça troy é igual a 31,1034768 gramas, de acordo com o Reino Unido Royal
+             Hortelã. A onça é mantida até hoje como a unidade de medida padrão nos metais preciosos
+             mercado para garantir padrões de pureza e outras medidas comuns permanecem consistentes ao longo do tempo.</value>
+  </data>
+    
+    <data name="TitleTolaGrams" xml:space="preserve">
+    <value>Quantos gramas de ouro equivalem a 1 Tola?</value>
+  </data>
+    <data name="DescriptionTolaGrams" xml:space="preserve">
+    <value>Atualmente, uma tola equivale a 10 gramas de ouro. Durante o domínio britânico, tola foi considerada a unidade base da
+             massa para pesar e medir grãos na Índia.</value>
+  </data>
+    
+    <data name="TitleKgTola" xml:space="preserve">
+    <value>Quanto custa 1 kg de ouro em Tola?</value>
+  </data>
+    <data name="DescriptionKgTola" xml:space="preserve">
+    <value>1 quilo de ouro é equivalente a 85.735 tola.</value>
+  </data>
+    
+    <data name="TitleTolaCountries" xml:space="preserve">
+    <value>Quais países usaram tola como denominação de ouro?</value>
+  </data>
+    <data name="DescriptionTolaCountries" xml:space="preserve">
+    <value>Índia, Paquistão, Bangladesh, Nepal e Cingapura ainda usavam tola para medir o ouro (especialmente em barras de ouro).</value>
+  </data>
+    
+        <data name="MetaDescription" xml:space="preserve">
+    <value>Taxas de câmbio em tempo real que contêm USD para PKR, USD para Euro, USD para TRY, USD para Inr, USD
+           para TSH, Preço do ouro, Preço do Tola, USD para SAR, USD para AED, ouro em ouro e muitas outras moedas.</value>
+  </data>
+    
 </root>

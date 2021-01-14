@@ -1,31 +1,39 @@
-﻿<!DOCTYPE html>
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+          content="@localizer["MetaDescription"]">
+
     <title>@ViewData["Title"] - CurrencyExchangeNet5MVC</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/custom.css" />
+    <script data-ad-client="ca-pub-2704960013163188" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="toolbar navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CurrencyExchangeNet5MVC</a>
+                <a class="toolbarText navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GoldAndCurrencyRates.Com</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+                @*<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>*@
             </div>
         </nav>
     </header>
@@ -37,12 +45,20 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - CurrencyExchangeNet5MVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - GoldAndCurrencyRates.Com
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    @*<script language="Javascript">document.write("Welcome to our visitors from " + geoplugin_city() + ", " + geoplugin_countryName()
+            + ", and currency code is " + geoplugin_currencyCode() + ", and country code is " + geoplugin_countryCode());</script>*@
+
+
+    <!-- Start: Copyright 2021 TraceMyIP.org Service Code (080444-01122021)- DO NOT MODIFY //-->
+    @*<div style="line-height:16px;text-align:center;">*@
+    <!--<script type="text/javascript" src="//s2.tracemyip.org/tracker/lgUrl.php?stlVar2=1105&amp;rgtype=4684NR-IPIB&amp;pidnVar2=92795&amp;prtVar2=3&amp;scvVar2=12"></script></div>--> <!-- End: TraceMyIP.org Service Code //-->
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

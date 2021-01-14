@@ -12,4 +12,13 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+    <data name="MetaDescription" xml:space="preserve">
+    <value>
+            براہ راست کرنسی کے تبادلے کی شرح جن میں USD سے PKR ، USD سے یورو ، USD سے TRY ، USD سے Inr ، USD شامل ہیں
+           TSH ، سونے کی قیمت ، تولہ قیمت ، USD سے SAR ، USD سے AED ، بلین گولڈ اور بہت ساری دیگر کرنسیوں کو۔
+        </value>
+  </data>
+    
+    
 </root>

@@ -46,5 +46,11 @@ namespace CurrencyExchangeNet5MVC.Resources.Views.Shared {
                 resourceCulture = value;
             }
         }
+        
+        internal static string MetaDescription {
+            get {
+                return ResourceManager.GetString("MetaDescription", resourceCulture);
+            }
+        }
     }
 }

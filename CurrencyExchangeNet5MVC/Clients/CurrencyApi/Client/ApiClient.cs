@@ -24,7 +24,7 @@ namespace IO.Swagger.Client
         /// Initializes a new instance of the <see cref="ApiClient" /> class.
         /// </summary>
         /// <param name="basePath">The base path.</param>
-        public ApiClient(String basePath="https://localhost:5001")
+        public ApiClient(String basePath= "http://emrebabayigit33-002-site4.ctempurl.com")
         {
             BasePath = basePath;
             RestClient = new RestClient(BasePath);

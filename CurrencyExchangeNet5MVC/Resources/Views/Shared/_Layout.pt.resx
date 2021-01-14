@@ -12,4 +12,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+    
+    <data name="MetaDescription" xml:space="preserve">
+    <value>Taxas de câmbio em tempo real que contêm USD para PKR, USD para Euro, USD para TRY, USD para Inr, USD
+           para TSH, Preço do ouro, Preço do Tola, USD para SAR, USD para AED, ouro em ouro e muitas outras moedas.</value>
+  </data>
+    
 </root>

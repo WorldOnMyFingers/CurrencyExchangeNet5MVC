@@ -12,4 +12,63 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+    <data name="TitleWhatIsTola" xml:space="preserve">
+    <value>Qu'est-ce que Tola</value>
+  </data>
+    <data name="DescriptionWhatIsTola" xml:space="preserve">
+    <value>Tola, également orthographié comme tolah ou tole, est un terme hindi qui est utilisé en Inde et dans certains autres pays asiatiques pour
+            mesurer l'or. À l'heure actuelle, un tola
+            équivaut à 10 grammes d'or. Autrefois utilisé par les Indiens et les Asiatiques du Sud, le poids d'un tola aujourd'hui
+            est égal à 180 grains troy (11,6638038 grammes) ou 3/8 once troy.
+            Sous le règne de l'Inde britannique, le tola était utilisé comme unité de base de masse pour peser et mesurer les grains. À
+            cette fois, un tola était égal à 175,90 grains troy (0,97722222 tolas britanniques, soit 11,33980925 grammes).
+            La racine du terme tola remonte à l'âge védique où il pesait les graines et autres céréales. Le terme
+            Tola est dérivé du mot sanscrit «Tol» qui signifie poids ou pesage. Traditionnellement, le poids exact de
+            tola variait car le poids de tola était déterminé par le poids de 100 graines de Ratti.
+            Plusieurs pièces de monnaie précoloniales, dont celle d'Akbar le Grand (1556-1605), pesaient un tola. La première
+            roupie, frappée par Sher Shah Suri (1540-1545), pèse 178 grains troy, soit environ 1% de moins que les Britanniques
+            tola.
+            Tola a été officiellement remplacé par des unités métriques en 1956, cependant, il est toujours utilisé comme dénomination pour
+            lingots d'or dans des pays comme l'Inde, le Bangladesh, le Népal, le Pakistan et Singapour. Parmi ceux-ci, dix tola bar est
+            le métal le plus commercialisé.</value>
+  </data>
+    
+    <data name="TitleWhatIsAnOunce" xml:space="preserve">
+    <value>Qu'est-ce qu'une once?</value>
+  </data>
+    <data name="DescriptionWhatIsAnOunce" xml:space="preserve">
+    <value>L'once est une unité de mesure utilisée pour peser les métaux précieux qui remonte au Moyen Âge.
+             À l'origine utilisée à Troyes, en France, une once troy équivaut à 31,1034768 grammes, selon le Royaume-Uni Royal
+             Menthe. L'once est conservée encore aujourd'hui comme unité de mesure standard dans les métaux précieux
+             marché pour garantir que les normes de pureté et les autres mesures communes restent cohérentes dans le temps.</value>
+  </data>
+    
+    <data name="TitleTolaGrams" xml:space="preserve">
+    <value>Combien de grammes d'or équivalent à 1 Tola?</value>
+  </data>
+    <data name="DescriptionTolaGrams" xml:space="preserve">
+    <value>Actuellement, un tola équivaut à 10 grammes d'or. Pendant la domination britannique, tola était considérée comme l'unité de base de
+             masse en poids et mesurer les grains en Inde.</value>
+  </data>
+    
+    <data name="TitleKgTola" xml:space="preserve">
+    <value>Combien coûte 1 kg d'or dans Tola?</value>
+  </data>
+    <data name="DescriptionKgTola" xml:space="preserve">
+    <value>1 kilogramme d'or équivaut à 85,735 tola.</value>
+  </data>
+    
+    <data name="TitleTolaCountries" xml:space="preserve">
+    <value>Quels pays ont utilisé le tola comme dénomination pour l'or?</value>
+  </data>
+    <data name="DescriptionTolaCountries" xml:space="preserve">
+    <value>L'Inde, le Pakistan, le Bangladesh, le Népal et Singapour utilisaient encore le tola pour mesurer l'or (en particulier les lingots d'or).</value>
+  </data>
+    
+        <data name="MetaDescription" xml:space="preserve">
+    <value>Taux de change en direct qui contiennent USD à PKR, USD à Euro, USD à TRY, USD à Inr, USD
+           à TSH, prix de l'or, prix Tola, USD à SAR, USD à AED, Bullion Gold et de nombreuses autres devises.</value>
+  </data>
+    
 </root>

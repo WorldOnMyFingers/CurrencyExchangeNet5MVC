@@ -46,5 +46,71 @@ namespace CurrencyExchangeNet5MVC.Resources.Views.Home {
                 resourceCulture = value;
             }
         }
+        
+        internal static string TitleWhatIsTola {
+            get {
+                return ResourceManager.GetString("TitleWhatIsTola", resourceCulture);
+            }
+        }
+        
+        internal static string DescriptionWhatIsTola {
+            get {
+                return ResourceManager.GetString("DescriptionWhatIsTola", resourceCulture);
+            }
+        }
+        
+        internal static string TitleWhatIsAnOunce {
+            get {
+                return ResourceManager.GetString("TitleWhatIsAnOunce", resourceCulture);
+            }
+        }
+        
+        internal static string DescriptionWhatIsAnOunce {
+            get {
+                return ResourceManager.GetString("DescriptionWhatIsAnOunce", resourceCulture);
+            }
+        }
+        
+        internal static string TitleTolaGrams {
+            get {
+                return ResourceManager.GetString("TitleTolaGrams", resourceCulture);
+            }
+        }
+        
+        internal static string DescriptionTolaGrams {
+            get {
+                return ResourceManager.GetString("DescriptionTolaGrams", resourceCulture);
+            }
+        }
+        
+        internal static string TitleKgTola {
+            get {
+                return ResourceManager.GetString("TitleKgTola", resourceCulture);
+            }
+        }
+        
+        internal static string DescriptionKgTola {
+            get {
+                return ResourceManager.GetString("DescriptionKgTola", resourceCulture);
+            }
+        }
+        
+        internal static string TitleTolaCountries {
+            get {
+                return ResourceManager.GetString("TitleTolaCountries", resourceCulture);
+            }
+        }
+        
+        internal static string DescriptionTolaCountries {
+            get {
+                return ResourceManager.GetString("DescriptionTolaCountries", resourceCulture);
+            }
+        }
+        
+        internal static string MetaDescription {
+            get {
+                return ResourceManager.GetString("MetaDescription", resourceCulture);
+            }
+        }
     }
 }

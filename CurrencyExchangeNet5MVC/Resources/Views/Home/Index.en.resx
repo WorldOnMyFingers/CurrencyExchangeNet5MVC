@@ -12,4 +12,64 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+    <data name="TitleWhatIsTola" xml:space="preserve">
+    <value>What is Tola</value>
+  </data>
+    <data name="DescriptionWhatIsTola" xml:space="preserve">
+    <value>Tola, also spelt as tolah or tole, is a Hindi term which is used in India and some other Asian countries to
+            measure gold. At present, one tola
+            is equivalent to 10 grams of gold. Once used by Ancient Indian and South Asian, the weight of one tola today
+            is equal to 180 troy grains (11.6638038 grams) or 3/8 troy ounce.
+            During the rule of British India, tola was used as the base unit of mass to weight and measure grains. At
+            that time, one tola was equal to 175.90 troy grains (0.97722222 British tolas, or 11.33980925 grams).
+            The root of term tola dates back to the Vedic age when it used to weight seed and other grains. The term
+            Tola is derived from the Sanskrit word 'Tol' meaning weight or weighing. Traditionally, the exact weight of
+            tola used to vary as the weight of tola was determined by the weight of 100 Ratti seeds.
+            Several pre-colonial coins, including that of Akbar the Great (1556–1605), weighted one tola. The first
+            rupee, minted by Sher Shah Suri (1540–45), weight 178 troy grains, or about 1 per cent less than the British
+            tola.
+            Tola was officially replaced by metric units in 1956, however, it is still in use as the denomination for
+            gold bars in countries like India, Bangladesh, Nepal, Pakistan, and Singapore. Among these, ten tola bar is
+            the most commonly traded metal.</value>
+  </data>
+  
+    
+    <data name="TitleWhatIsAnOunce" xml:space="preserve">
+    <value>What Is an Ounce?</value>
+  </data>
+    <data name="DescriptionWhatIsAnOunce" xml:space="preserve">
+    <value>An ounce is a unit of measure used for weighing precious metals that dates back to the Middle Ages.
+            Originally used in Troyes, France, one troy ounce is equal to 31.1034768 grams, according to the U.K. Royal
+            Mint. The ounce is retained even today as the standard unit of measurement in the precious metals
+            market to ensure purity standards and other common measures remain consistent over time.</value>
+  </data>
+    
+    <data name="TitleTolaGrams" xml:space="preserve">
+    <value>How many grams of gold is equivalent to 1 Tola?</value>
+  </data>
+    <data name="DescriptionTolaGrams" xml:space="preserve">
+    <value>Currently, one tola equals to 10 grams of gold. During British rule, tola was considered as the base unit of
+            mass to weight and measure grains in India.</value>
+  </data>
+    
+    <data name="TitleKgTola" xml:space="preserve">
+    <value>How much is 1 kg of gold in Tola?</value>
+  </data>
+    <data name="DescriptionKgTola" xml:space="preserve">
+    <value>1 kilogram of gold is equivalent to 85.735 tola.</value>
+  </data>
+    
+    <data name="TitleTolaCountries" xml:space="preserve">
+    <value>Which countries used tola as a denomination for gold?</value>
+  </data>
+    <data name="DescriptionTolaCountries" xml:space="preserve">
+    <value>India, Pakistan, Bangladesh, Nepal, and Singapore still used tola to measure gold (especially gold bars).</value>
+  </data>
+    
+    <data name="MetaDescription" xml:space="preserve">
+    <value>Live currency exchange rates that contain USD to PKR, USD To Euro, USD to TRY, USD To Inr, USD
+          to TSH, Gold Price, Tola Price, USD to SAR, USD to AED, Bullion Gold and many other currencies.</value>
+  </data>
+    
 </root>

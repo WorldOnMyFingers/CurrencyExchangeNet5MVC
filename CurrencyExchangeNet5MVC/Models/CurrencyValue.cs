@@ -1,5 +1,5 @@
 ﻿using System;
-namespace CurrencyExchangeWebAppMVC.Models
+namespace CurrencyExchangeNet5MVC.Models
 {
     public class CurrencyValue
     {

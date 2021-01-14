@@ -12,4 +12,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+     <data name="MetaDescription" xml:space="preserve">
+    <value>Tipos de cambio de moneda en vivo que contienen USD a PKR, USD a Euro, USD a TRY, USD a Inr, USD
+           a TSH, Gold Price, Tola Price, USD a SAR, USD a AED, Bullion Gold y muchas otras monedas.</value>
+  </data>
+    
 </root>

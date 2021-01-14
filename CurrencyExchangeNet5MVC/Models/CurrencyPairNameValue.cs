@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CurrencyExchangeWebAppMVC.Models
+namespace CurrencyExchangeNet5MVC.Models
 {
     public class CurrencyPairNameValue
     {

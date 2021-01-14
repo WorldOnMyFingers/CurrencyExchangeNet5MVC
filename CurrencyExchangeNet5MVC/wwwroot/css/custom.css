@@ -1,2 +1,34 @@
-﻿body {
+﻿.leftAlign {
+    align-self: flex-start;
+}
+
+.table-row:nth-child(even) {
+    background-color: #F6F4F3;
+
+}
+
+.table-row:nth-child(odd) {
+    background-color: white;
+}
+
+.toolbar {
+    background-color: #063f8c !important;
+    align-items: center;
+    color: white !important;
+}
+
+.toolbarText{
+color: white !important;
+}
+
+.currencyDescription {
+    display: block;
+    font-weight: normal;
+    text-align: left;
+}
+
+#currencyName {
+    text-align: left;
+    font-weight: bold;
+    min-width: 10em;
 }

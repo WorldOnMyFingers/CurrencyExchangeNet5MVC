@@ -12,4 +12,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+    
+    <data name="MetaDescription" xml:space="preserve">
+    <value>Taux de change en direct qui contiennent USD à PKR, USD à Euro, USD à TRY, USD à Inr, USD
+           à TSH, prix de l'or, prix Tola, USD à SAR, USD à AED, Bullion Gold et de nombreuses autres devises.</value>
+  </data>
+    
 </root>

@@ -12,4 +12,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    
+    <data name="MetaDescription" xml:space="preserve">
+    <value>Live currency exchange rates that contain USD to PKR, USD To Euro, USD to TRY, USD To Inr, USD
+          to TSH, Gold Price, Tola Price, USD to SAR, USD to AED, Bullion Gold and many other currencies.</value>
+    </data>
+    
 </root>
