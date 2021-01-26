@@ -14,7 +14,7 @@
     </resheader>
     
         <data name="TitleWhatIsTola" xml:space="preserve">
-    <value>¿Qué es Tola?</value>
+    <value>¿Qué es Tola en {0}?</value>
   </data>
     <data name="DescriptionWhatIsTola" xml:space="preserve">
     <value>Tola, también deletreado como tolah o tole, es un término hindi que se utiliza en la India y algunos otros países asiáticos para
@@ -36,7 +36,7 @@
   
     
     <data name="TitleWhatIsAnOunce" xml:space="preserve">
-    <value>¿Qué es una onza?</value>
+    <value>¿Qué es una onza en {0}?</value>
   </data>
     <data name="DescriptionWhatIsAnOunce" xml:space="preserve">
     <value>Una onza es una unidad de medida utilizada para pesar metales preciosos que se remonta a la Edad Media.
@@ -46,7 +46,7 @@
   </data>
     
     <data name="TitleTolaGrams" xml:space="preserve">
-    <value>¿Cuántos gramos de oro equivalen a 1 Tola?</value>
+    <value>¿Cuántos gramos de oro equivalen a 1 Tola en {0}?</value>
   </data>
     <data name="DescriptionTolaGrams" xml:space="preserve">
     <value>Actualmente, una tola equivale a 10 gramos de oro. Durante el dominio británico, tola fue considerada como la unidad base de
@@ -54,7 +54,7 @@
   </data>
     
     <data name="TitleKgTola" xml:space="preserve">
-    <value>¿Cuánto es 1 kg de oro en Tola?</value>
+    <value>¿Cuánto es 1 kg de oro en Tola en {0}?</value>
   </data>
     <data name="DescriptionKgTola" xml:space="preserve">
     <value>1 kilogramo de oro equivale a 85.735 tola.</value>
@@ -70,6 +70,170 @@
        <data name="MetaDescription" xml:space="preserve">
     <value>Tipos de cambio de moneda en vivo que contienen USD a PKR, USD a Euro, USD a TRY, USD a Inr, USD
            a TSH, Gold Price, Tola Price, USD a SAR, USD a AED, Bullion Gold y muchas otras monedas.</value>
+  </data>
+    
+    <data name="GoldAndCurrencyRatesToday" xml:space="preserve">
+    <value>Tipos de cambio y oro hoy en {0}</value>
+  </data>
+    
+    <data name="CodeUSD" xml:space="preserve">
+    <value>USD</value>
+  </data>
+    
+    <data name="CodeEUR" xml:space="preserve">
+    <value>EUR</value>
+  </data>
+    
+    <data name="CodeGBP" xml:space="preserve">
+    <value>GBP</value>
+  </data>
+    
+    <data name="CodeXAU" xml:space="preserve">
+    <value>XAU</value>
+  </data>
+    
+    <data name="NameUSD" xml:space="preserve">
+    <value>Dólar Estadounidense</value>
+  </data>
+    
+    <data name="NameEUR" xml:space="preserve">
+    <value>Euro</value>
+  </data>
+    
+    <data name="NameGBP" xml:space="preserve">
+    <value>Libra británica</value>
+  </data>
+    
+    <data name="NameXAU" xml:space="preserve">
+    <value>Onza de oro</value>
+  </data>
+    
+    <data name="Name24k10Gr" xml:space="preserve">
+    <value>24k de oro de 10 gramos</value>
+  </data>
+    
+    <data name="Name22k10Gr" xml:space="preserve">
+    <value>22k de oro de 10 gramos</value>
+  </data>
+    
+    <data name="Name24kTola" xml:space="preserve">
+    <value>24k por Tola</value>
+  </data>
+    
+    <data name="Name22kTola" xml:space="preserve">
+    <value>22k por Tola</value>
+  </data>
+    
+    <data name="Name24kGr" xml:space="preserve">
+    <value>1 gramo de oro</value>
+  </data>
+    
+    <data name="NameCeyrek" xml:space="preserve">
+    <value>Cuarto de oro</value>
+  </data>
+    
+ <data name="CurrencyTodayIncreasedText" xml:space="preserve">
+    <value> Hoy en día, las tasas del {0} en {1} comenzaron a una tasa de {2} {3} y aumentaron a {4} {5}.</value>
+  </data>
+    
+    <data name="CurrencyTodayDecreasedText" xml:space="preserve">
+    <value> Hoy en día, las tasas del {0} en {1} comenzaron a una tasa de {2} {3} y disminuyó a {4} {5}.</value>
+  </data>
+    
+    
+    
+    
+    <data name="Today" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+    
+     <data name="CountryPKR" xml:space="preserve">
+    <value>Pakistán</value>
+  </data>
+    
+    <data name="CountryTRY" xml:space="preserve">
+    <value>Turquía</value>
+  </data>
+    
+    <data name="CountryBRL" xml:space="preserve">
+    <value>Brasil</value>
+  </data>
+    
+    <data name="CountryCLP" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+    
+    <data name="CountryVES" xml:space="preserve">
+    <value>Bs</value>
+  </data>
+    
+    <data name="CountryMXN" xml:space="preserve">
+    <value>México</value>
+  </data>
+    
+    <data name="CountryUYU" xml:space="preserve">
+    <value>Uruguay‎</value>
+  </data>
+    
+    <data name="CountryPEN" xml:space="preserve">
+    <value>Perú‎</value>
+  </data>
+    
+    <data name="CountryBOB" xml:space="preserve">
+    <value>Bolivia‎</value>
+  </data>
+    
+    <data name="CountryPYG" xml:space="preserve">
+    <value>Paraguay‎</value>
+  </data>
+    
+    
+    <data name="CurrencyTRY" xml:space="preserve">
+    <value>₺</value>
+  </data>
+    
+    <data name="CurrencyPakistan" xml:space="preserve">
+    <value>Rs</value>
+  </data>
+    
+    <data name="CurrencyBRL" xml:space="preserve">
+    <value>R$</value>
+  </data>
+    
+    <data name="CurrencyCLP" xml:space="preserve">
+    <value>$</value>
+  </data>
+    
+    <data name="CurrencyVES" xml:space="preserve">
+    <value>Bs</value>
+  </data>
+    
+    <data name="CurrencyMXN" xml:space="preserve">
+    <value>$</value>
+  </data>
+    
+    <data name="CurrencyUYU" xml:space="preserve">
+    <value>$U‎</value>
+  </data>
+    
+    <data name="CurrencyPEN" xml:space="preserve">
+    <value>S/‎</value>
+  </data>
+    
+    <data name="CurrencyBOB" xml:space="preserve">
+    <value>Bs‎</value>
+  </data>
+    
+    <data name="CurrencyPYG" xml:space="preserve">
+    <value>₲‎</value>
+  </data>
+    
+    <data name="CountryZAR" xml:space="preserve">
+    <value>Sudáfrica‎</value>
+  </data>
+    
+    <data name="CurrencyZAR" xml:space="preserve">
+    <value>R‎</value>
   </data>
     
 </root>

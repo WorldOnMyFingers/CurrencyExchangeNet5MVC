@@ -1,5 +1,5 @@
 ﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
-@model List<IO.Swagger.Model.CurrencyPairNameValue>
+@model IO.Swagger.Model.CurrencyPairsWrapper
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -8,15 +8,28 @@
     <table class="table">
         <tbody>
 
-            @foreach (var currencyPair in Model)
+            @foreach (var currencyPair in Model.Currencies)
             {
                 <tr class="table-row">
-                    <td id="currencyName">@currencyPair.Code<span class="currencyDescription">@currencyPair.Name</span></td>
+                    @{
+                        var codeNameValue = localizer["Code" + currencyPair.Code];
+                        string code = localizer["Code" + currencyPair.Code].Value;
+                        string name = localizer["Name" + currencyPair.Code].Value;
+                        if (codeNameValue.Name == codeNameValue.Value)
+                        {
+                            code = name;
+                            name = "";
+                        }
+                    }
+                    <td id="currencyName">@code<span class="currencyDescription">@name</span></td>
 
-                    @{ var value = String.Format("{0}{1}{2}",
-                         currencyPair.LocalCurrencySymbol,
-                         string.Empty,
-                         currencyPair.Values.LastOrDefault().Value);}
+                    @{
+                        var currencySymbol = string.IsNullOrEmpty(currencyPair.LocalCurrencySymbol) ? localizer["Currency" + Model.LocalCurrencyCode].Value : currencyPair.LocalCurrencySymbol;
+                        var value = String.Format("{0}{1}{2}",
+                              currencySymbol,
+                              " ",
+                              currencyPair.Values.LastOrDefault().Value);
+                        }
                     <td>
                         @value
                     </td>
@@ -35,21 +48,50 @@
         </tbody>
     </table>
 
-    
-    <h3>@localizer["TitleWhatIsTola"]</h3>
-    <p>@localizer["DescriptionWhatIsTola"]</p>
+    @{
+        var header = string.Format(localizer["GoldAndCurrencyRatesToday"].Value, localizer["Country" + Model.LocalCurrencyCode].Value);
+    }
+    <h3>@header &nbsp; @DateTime.Now.ToString("dd-MM-yyyy")</h3>
 
-    <h3>@localizer["TitleWhatIsAnOunce"]</h3>
-    <p>@localizer["DescriptionWhatIsAnOunce"]</p>
+    <table class="table">
+        <tbody>
+            @foreach (var currencyPair in Model.Currencies)
+            {
+                var isIncreased = currencyPair.Values.First().Value.Value < currencyPair.Values.Last().Value.Value ? true : false;
+                var todayText = isIncreased == true ? "CurrencyTodayIncreasedText" : "CurrencyTodayDecreasedText";
+                var text = string.Format(localizer[todayText].Value,
+                    localizer["Name" + currencyPair.Code].Value,
+                    localizer["Country" + Model.LocalCurrencyCode].Value,
+                    string.IsNullOrEmpty(currencyPair.LocalCurrencySymbol) ? localizer["Currency" + Model.LocalCurrencyCode].Value : currencyPair.LocalCurrencySymbol,
+                    string.Format("{0:N}", currencyPair.Values.First().Value.Value),
+                    localizer["Currency" + Model.LocalCurrencyCode].Value,
+                    string.Format("{0:N}", currencyPair.Values.Last().Value.Value));
+                <tr class="table-row">
+                    <td id="currencyName">@string.Format("{0}{1}{2}", localizer["Name" + currencyPair.Code].Value, " ", localizer["Today"].Value)</td>
+                    <td class="dailyText">@text</td>
+                </tr>
 
-    <h3>@localizer["TitleTolaGrams"]</h3>
-    <p>@localizer["DescriptionTolaGrams"]</p>
+            }
+            </tbody>
+        </table>
 
-    <h3>@localizer["TitleKgTola"]</h3>
-    <p>@localizer["DescriptionKgTola"]</p>
 
-    <h3>@localizer["TitleTolaCountries"]</h3>
-    <p>@localizer["DescriptionTolaCountries"]</p>
+
+
+            <h3>@string.Format(localizer["TitleWhatIsTola"].Value, localizer["Country"+ Model.LocalCurrencyCode].Value)</h3>
+            <p>@localizer["DescriptionWhatIsTola"]</p>
+
+            <h3>@string.Format(localizer["TitleWhatIsAnOunce"].Value, localizer["Country" + Model.LocalCurrencyCode].Value)</h3>
+            <p>@localizer["DescriptionWhatIsAnOunce"]</p>
+
+            <h3>@string.Format(localizer["TitleTolaGrams"].Value, localizer["Country" + Model.LocalCurrencyCode].Value)</h3>
+            <p>@localizer["DescriptionTolaGrams"]</p>
+
+            <h3>@string.Format(localizer["TitleKgTola"].Value, localizer["Country" + Model.LocalCurrencyCode].Value)</h3>
+            <p>@localizer["DescriptionKgTola"]</p>
+
+            <h3>@localizer["TitleTolaCountries"]</h3>
+            <p>@localizer["DescriptionTolaCountries"]</p>
 
 
 

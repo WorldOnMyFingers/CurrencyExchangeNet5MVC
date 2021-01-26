@@ -18,19 +18,19 @@
   </data>
     <data name="DescriptionWhatIsTola" xml:space="preserve">
     <value>Tola, também escrito como tolah ou tole, é um termo hindi usado na Índia e em alguns outros países asiáticos para
-            medir ouro. No momento, um tola
-            é equivalente a 10 gramas de ouro. Uma vez usado por antigos indianos e sul da Ásia, o peso de uma tola hoje
+            medir ouro. Pas de momento, um tola
+            é équivalent à 10 gramas de ouro. Uma vez usado por antigos indianos e sul da Ásia, o peso de uma tola hoje
             é igual a 180 grãos troy (11,6638038 gramas) ou 3/8 onça troy.
-            Durante o governo da Índia britânica, o tola era usado como unidade básica de massa para pesar e medir os grãos. Em
+            Durante o Governor da Índia britânica, o tola era usado como unidade básica de massa para pesar e medir os grãos. Em
             naquela época, um tola era igual a 175,90 grãos troy (0,97722222 tolas britânicas ou 11,33980925 gramas).
             A raiz do termo tola remonta à era védica, quando costumava pesar sementes e outros grãos. O termo
             Tola é derivado da palavra sânscrita 'Tol' que significa peso ou pesagem. Tradicionalmente, o peso exato de
             a tola costumava variar conforme o peso da tola era determinado pelo peso de 100 sementes de Ratti.
-            Várias moedas pré-coloniais, incluindo a de Akbar, o Grande (1556–1605), pesavam um tola. O primeiro
+            Várias moedas pré-coloniais, incluindo a de Akbar, o Grande (1556-1605), pesavam um tola. O primeiro
             rupia, cunhada por Sher Shah Suri (1540-1545), pesa 178 grãos troy, ou cerca de 1 por cento menos do que os britânicos
             tola.
             Tola foi oficialmente substituído por unidades métricas em 1956, no entanto, ainda é usado como denominação para
-            barras de ouro em países como Índia, Bangladesh, Nepal, Paquistão e Cingapura. Entre estes, dez tola bar é
+            barras de ouro em países como Índia, Bangladesh, Népal, Paquistão e Cingapura. Entre estes, dez tola bar é
             o metal mais comumente negociado.</value>
   </data>
   
@@ -70,6 +70,164 @@
         <data name="MetaDescription" xml:space="preserve">
     <value>Taxas de câmbio em tempo real que contêm USD para PKR, USD para Euro, USD para TRY, USD para Inr, USD
            para TSH, Preço do ouro, Preço do Tola, USD para SAR, USD para AED, ouro em ouro e muitas outras moedas.</value>
+  </data>
+    
+    <data name="GoldAndCurrencyRatesToday" xml:space="preserve">
+    <value>Taxas de ouro e moedas hoje no {0}</value>
+  </data>
+    
+    <data name="CodeUSD" xml:space="preserve">
+    <value>USD</value>
+  </data>
+    
+    <data name="CodeEUR" xml:space="preserve">
+    <value>EUR</value>
+  </data>
+    
+    <data name="CodeGBP" xml:space="preserve">
+    <value>GBP</value>
+  </data>
+    
+    <data name="CodeXAU" xml:space="preserve">
+    <value>XAU</value>
+  </data>
+    
+    <data name="NameUSD" xml:space="preserve">
+    <value>Dólar americano</value>
+  </data>
+    
+    <data name="NameEUR" xml:space="preserve">
+    <value>Euro</value>
+  </data>
+    
+    <data name="NameGBP" xml:space="preserve">
+    <value>Libra britânica</value>
+  </data>
+    
+    <data name="NameXAU" xml:space="preserve">
+    <value>Onça de ouro</value>
+  </data>
+    
+    <data name="Name24k10Gr" xml:space="preserve">
+    <value>24 quilates 10 gramas de ouro</value>
+  </data>
+    
+    <data name="Name22k10Gr" xml:space="preserve">
+    <value>22 quilates 10 gramas de ouro</value>
+  </data>
+    
+    <data name="Name24kTola" xml:space="preserve">
+    <value>24 quilates Per Tola</value>
+  </data>
+    
+    <data name="Name22kTola" xml:space="preserve">
+    <value>22 quilates Per Tola</value>
+  </data>
+    
+    <data name="Name24kGr" xml:space="preserve">
+    <value>1 grama de ouro</value>
+  </data>
+    
+    <data name="NameCeyrek" xml:space="preserve">
+    <value>Quarto de Ouro</value>
+  </data>
+    
+    
+ <data name="CurrencyTodayIncreasedText" xml:space="preserve">
+    <value>Hoje, as taxas do {0} no {1} começaram na taxa de {2} {3} e aumentaram para {4} {5}</value>
+  </data>
+    
+    <data name="CurrencyTodayDecreasedText" xml:space="preserve">
+    <value> Hoje, as taxas do {0} no {1} começaram na taxa de {2} {3} e diminuíram para {4} {5}</value>
+  </data>
+    
+    <data name="Today" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+    
+    <data name="CountryPKR" xml:space="preserve">
+    <value>Paquistão</value>
+  </data>
+    
+    <data name="CountryTRY" xml:space="preserve">
+    <value>Turquia</value>
+  </data>
+    
+    <data name="CountryBRL" xml:space="preserve">
+    <value>Brasil</value>
+  </data>
+    
+    <data name="CountryCLP" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+    
+    <data name="CountryVES" xml:space="preserve">
+    <value>Bs</value>
+  </data>
+    
+    <data name="CountryMXN" xml:space="preserve">
+    <value>México</value>
+  </data>
+    
+    <data name="CountryUYU" xml:space="preserve">
+    <value>Uruguai‎</value>
+  </data>
+    
+    <data name="CountryPEN" xml:space="preserve">
+    <value>Peru‎</value>
+  </data>
+    
+    <data name="CountryBOB" xml:space="preserve">
+    <value>Bolívia‎</value>
+  </data>
+    
+    <data name="CountryPYG" xml:space="preserve">
+    <value>Paraguai‎</value>
+  </data>
+    
+    
+<data name="CurrencyTRY" xml:space="preserve">
+    <value>₺</value>
+  </data>
+    
+    <data name="CurrencyBRL" xml:space="preserve">
+    <value>R$</value>
+  </data>
+    
+    <data name="CurrencyCLP" xml:space="preserve">
+    <value>$</value>
+  </data>
+    
+    <data name="CurrencyVES" xml:space="preserve">
+    <value>Bs</value>
+  </data>
+    
+    <data name="CurrencyMXN" xml:space="preserve">
+    <value>$</value>
+  </data>
+    
+    <data name="CurrencyUYU" xml:space="preserve">
+    <value>$U‎</value>
+  </data>
+    
+    <data name="CurrencyPEN" xml:space="preserve">
+    <value>S/‎</value>
+  </data>
+    
+    <data name="CurrencyBOB" xml:space="preserve">
+    <value>Bs‎</value>
+  </data>
+    
+    <data name="CurrencyPYG" xml:space="preserve">
+    <value>₲‎</value>
+  </data>
+    
+    <data name="CountryZAR" xml:space="preserve">
+    <value>África do Sul‎</value>
+  </data>
+    
+    <data name="CurrencyZAR" xml:space="preserve">
+    <value>R‎</value>
   </data>
     
 </root>

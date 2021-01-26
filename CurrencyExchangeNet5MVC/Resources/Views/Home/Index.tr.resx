@@ -14,53 +14,53 @@
     </resheader>
     
     <data name="TitleWhatIsTola" xml:space="preserve">
-    <value>What is Tola in {0}?</value>
+    <value>{0}'da Tola nedir?</value>
   </data>
     <data name="DescriptionWhatIsTola" xml:space="preserve">
     <value>
-            Tola has been also called as tolah or tole coming from indian language and it has been used to measure gold and some other precious metals in some asian and 
-            middle east countries as well as in India and in Pakistan.
-             1 tola is around 11.6638038 grams of gold and in ancient times, it was weighted around 10 grams fo gold.
-        At the point when used by Ancient Indian and South Asian, the weight of one tola today 
-        is identical to 180 pieces of grains (more or less11.6638038 grams) or 2/5.3 ounce.
-        When India was a British colony, tola was the primary measurement unit for precious metals as well as grains and other types of dry food.
-        After long time being used as a mesurement unit, metric units replaced Tola after 1956 was officially displaced by metric units in 1956, 
-        yet it is still being utilized as a preciuos metal measurement unit in countries like India, Bangladesh, Nepal, Pakistan, and Singapore.
-        Tola is still one of the primary weihting unit in the villages of many asian countries,
-        it has been even more standardized by making an iron basket that takes 11.6 kg dry food when it filled completely.  </value>
+            Tola, Hint dilinden gelen tolah veya tole olarak da adlandırılmıştır ve bazı Asya ve Asya ülkelerinde altın ve diğer bazı değerli metalleri ölçmek için kullanılmıştır.
+            Orta doğu ülkelerinin yanı sıra Hindistan ve Pakistan'da.
+             1 tola yaklaşık 11.6638038 gram altındır ve eski zamanlarda altın yaklaşık 10 gram ağırlığındaydı.
+        Antik Hint ve Güney Asya tarafından kullanıldığında bugün bir tola ağırlığı
+        180 parça tahıl (aşağı yukarı 11.6638038 gram) veya 2 / 5.3 ons ile aynıdır.
+        Hindistan bir İngiliz kolonisiyken, tola, değerli metallerin yanı sıra tahıllar ve diğer kuru gıda türleri için birincil ölçüm birimiydi.
+        Uzun süre ölçüm birimi olarak kullanıldıktan sonra, metrik birimler, 1956'nın resmi olarak 1956'da metrik birimlerle yer değiştirmesinden sonra Tola'nın yerini aldı.
+        yine de Hindistan, Bangladeş, Nepal, Pakistan ve Singapur gibi ülkelerde kıymetli bir metal ölçüm birimi olarak kullanılmaktadır.
+        Tola, birçok Asya ülkesinin köylerinde hala birincil tartım birimlerinden biridir.
+        tam dolduğunda 11,6 kg kuru gıda alan demir sepet yapılarak daha da standart hale getirilmiştir.  </value>
   </data>
     <data name="TitleWhatIsAnOunce" xml:space="preserve">
-    <value>What Is an Ounce in {0}?</value>
+    <value>{0}'da bir Ons Nedir?</value>
   </data>
     <data name="DescriptionWhatIsAnOunce" xml:space="preserve">
-    <value>An ounce is a unit of measure used for weighing precious metals that dates back to the ancient times.
-            It has been founded in France and it was then called troy ounce which is equal to 31,10 grams.
-            It is even today used a measurement unit for precious metals such as gold, silver and others. 
-            It is well accepted measurument unit in many countries around the worls such as UK, USA, China, 
-        India, Turkey, Pakistan,Brazil, Europe and many other countries</value>
+    <value>Bir ons, çok eski zamanlara dayanan değerli metalleri tartmak için kullanılan bir ölçü birimidir.
+             Fransa'da kuruldu ve 31,10 grama eşit olan troy ons olarak adlandırıldı.
+             Bugün bile altın, gümüş ve diğerleri gibi değerli metaller için bir ölçü birimi kullanılmaktadır.
+             İngiltere, ABD, Çin gibi dünyanın birçok ülkesinde kabul gören ölçü birimidir.
+         Hindistan, Türkiye, Pakistan, Brezilya, Avrupa ve diğer birçok ülke</value>
   </data>
     <data name="TitleTolaGrams" xml:space="preserve">
-    <value>How many grams of gold is equivalent to 1 Tola in {0}?</value>
+    <value>{0}'da 1 Tola'ya kaç gram altın eşdeğerdir?</value>
   </data>
     <data name="DescriptionTolaGrams" xml:space="preserve">
-    <value>Currently, one tola equals to 10 grams of gold. During British rule, tola was considered as the base unit of
-            mass to weight and measure grains in India.</value>
+    <value>Şu anda bir tola, 10 gram altına eşittir. İngiliz yönetimi sırasında, tola, ülkenin temel birimi olarak kabul edildi.
+             Hindistan'daki tahılları tartmak ve ölçmek için kütle.</value>
   </data>
     <data name="TitleKgTola" xml:space="preserve">
-    <value>How much is 1 kg of gold in Tola in {0}?</value>
+    <value>{0}' da' 1 kg altın kac tola?</value>
   </data>
     <data name="DescriptionKgTola" xml:space="preserve">
-    <value>1 kilogram of gold is equivalent to 85.735 tola.</value>
+    <value>1 kilogram altın 85.735 tola eşdeğerdir.</value>
   </data>
     <data name="TitleTolaCountries" xml:space="preserve">
-    <value>Which countries used tola as a denomination for gold?</value>
+    <value>Hangi ülkeler tola'yı altın için bir değer olarak kullandı?</value>
   </data>
     <data name="DescriptionTolaCountries" xml:space="preserve">
-    <value>India, Pakistan, Bangladesh, Nepal, and Singapore still used tola to measure gold (especially gold bars).</value>
+    <value>Hindistan, Pakistan, Bangladeş, Nepal ve Singapur hala altını (özellikle altın külçelerini) ölçmek için tola kullandı.</value>
   </data>
     
     <data name="GoldAndCurrencyRatesToday" xml:space="preserve">
-    <value>Gold and Currency Rates Today in {0}</value>
+    <value>{0}'de Bugün Altın ve Döviz Kurları</value>
   </data>
     
     <data name="CodeUSD" xml:space="preserve">
@@ -80,7 +80,7 @@
   </data>
     
     <data name="NameUSD" xml:space="preserve">
-    <value>American Dollar</value>
+    <value>Amerikan Doları</value>
   </data>
     
     <data name="NameEUR" xml:space="preserve">
@@ -88,43 +88,43 @@
   </data>
     
     <data name="NameGBP" xml:space="preserve">
-    <value>British Pound</value>
+    <value>İngiliz Sterlini</value>
   </data>
     
     <data name="NameXAU" xml:space="preserve">
-    <value>Gold Ounce</value>
+    <value>Ons Altın</value>
   </data>
     
     <data name="Name24k10Gr" xml:space="preserve">
-    <value>24k 10 Gram Gold</value>
+    <value>24 Ayar 10 Gram Altın</value>
   </data>
     
     <data name="Name22k10Gr" xml:space="preserve">
-    <value>22k 10 Gram Gold</value>
+    <value>22 Ayar 10 Gram Altın</value>
   </data>
     
     <data name="Name24kTola" xml:space="preserve">
-    <value>24k Per Tola</value>
+    <value>24 Ayar Tola</value>
   </data>
     
     <data name="Name22kTola" xml:space="preserve">
-    <value>22k Per Tola</value>
+    <value>22 Ayar  Tola</value>
   </data>
     
     <data name="Name24kGr" xml:space="preserve">
-    <value>1 Gram Gold</value>
+    <value>1 Gram Altın</value>
   </data>
     
     <data name="NameCeyrek" xml:space="preserve">
-    <value>Quarter Gold</value>
+    <value>Çeyrek Altın</value>
   </data>
     
  <data name="CurrencyTodayIncreasedText" xml:space="preserve">
-    <value> Today {0} rates in {1} started at the rate of {2} {3} and increased to {4} {5}</value>
+    <value> Bugün, {0} {1} piyasaların'da  {2} {3} seviyelerinde işlem görmeye başladı ve {4} {5} seviyelerine kadar yükseldi. </value>
   </data>
     
     <data name="CurrencyTodayDecreasedText" xml:space="preserve">
-    <value> Today {0} rates in {1} started at the rate of {2} {3} and decreased to {4} {5}</value>
+    <value> Bugün, {0} {1} piyasaların'da  {2} {3} seviyelerinde işlem görmeye başladı ve {4} {5} seviyelerine kadar geriledi.</value>
   </data>
     
     <data name="CountryPKR" xml:space="preserve">
@@ -136,15 +136,15 @@
   </data>
     
     <data name="CountryTRY" xml:space="preserve">
-    <value>Turkey</value>
+    <value>Türkiye</value>
   </data>
     
     <data name="CountryBRL" xml:space="preserve">
-    <value>Brazil</value>
+    <value>Brezilya</value>
   </data>
     
     <data name="CountryCLP" xml:space="preserve">
-    <value>Chile</value>
+    <value>Şili</value>
   </data>
     
     <data name="CountryVES" xml:space="preserve">
@@ -152,7 +152,7 @@
   </data>
     
     <data name="CountryMXN" xml:space="preserve">
-    <value>Mexico</value>
+    <value>Meksika</value>
   </data>
     
     <data name="CountryUYU" xml:space="preserve">
@@ -164,7 +164,7 @@
   </data>
     
     <data name="CountryBOB" xml:space="preserve">
-    <value>Bolivia‎</value>
+    <value>Bolivya‎</value>
   </data>
     
     <data name="CountryPYG" xml:space="preserve">
@@ -209,7 +209,7 @@
   </data>
     
     <data name="CountryZAR" xml:space="preserve">
-    <value>South Africa‎</value>
+    <value>Güney Afrika‎</value>
   </data>
     
     <data name="CurrencyZAR" xml:space="preserve">
@@ -217,8 +217,7 @@
   </data>
     
     <data name="Today" xml:space="preserve">
-    <value>Today</value>
+    <value>Bügun</value>
   </data>
-    
     
 </root>

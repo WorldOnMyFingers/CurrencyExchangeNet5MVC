@@ -27,8 +27,14 @@ color: white !important;
     text-align: left;
 }
 
+.dailyText {
+    text-align: left !important;
+}
+
+
 #currencyName {
     text-align: left;
     font-weight: bold;
     min-width: 10em;
 }
+

@@ -70,4 +70,77 @@
            إلى TSH ، سعر الذهب ، سعر التولا ، الدولار الأمريكي إلى الريال السعودي ، الدولار الأمريكي إلى الدرهم الإماراتي ، السبائك الذهبية والعديد من العملات الأخرى.
         </value>
        </data>
+    
+    <data name="GoldAndCurrencyRatesToday" xml:space="preserve">
+    <value>باكستان أسعار الذهب والعملات اليوم فين</value>
+  </data>
+    
+    <data name="CodeUSD" xml:space="preserve">
+    <value>USD</value>
+  </data>
+    
+    <data name="CodeEUR" xml:space="preserve">
+    <value>EUR</value>
+  </data>
+    
+    <data name="CodeGBP" xml:space="preserve">
+    <value>GBP</value>
+  </data>
+    
+    <data name="CodeXAU" xml:space="preserve">
+    <value>XAU</value>
+  </data>
+    
+    <data name="NameUSD" xml:space="preserve">
+    <value>الدولار الأمريكي</value>
+  </data>
+    
+    <data name="NameEUR" xml:space="preserve">
+    <value>Euro</value>
+  </data>
+    
+    <data name="NameGBP" xml:space="preserve">
+    <value>الجنيه البريطاني</value>
+  </data>
+    
+    <data name="NameXAU" xml:space="preserve">
+    <value>أوقية الذهب</value>
+  </data>
+    
+    <data name="Name24k10Gr" xml:space="preserve">
+    <value>24 قيراط 10 جرام ذهب</value>
+  </data>
+    
+    <data name="Name22k10Gr" xml:space="preserve">
+    <value>22 قيراط 10 جرام ذهب</value>
+  </data>
+    
+    <data name="Name24kTola" xml:space="preserve">
+    <value>24 كيلو لكل تولة </value>
+  </data>
+    
+    <data name="Name22kTola" xml:space="preserve">
+    <value>22 كيلو لكل تولة</value>
+  </data>
+    
+ <data name="CurrencyTodayIncreasedText" xml:space="preserve">
+    <value> Today {0} rates in {1} started at the rate of {2}{3} and increased to {4}{5}</value>
+  </data>
+    
+    <data name="CurrencyTodayDecreasedText" xml:space="preserve">
+    <value> Today {0} rates in {1} started at the rate of {2}{3} and decreased to {4}{5}</value>
+  </data>
+    
+    <data name="CountryPakistan" xml:space="preserve">
+    <value>باكستان</value>
+  </data>
+    
+    <data name="CurrencyPakistan" xml:space="preserve">
+    <value>روبية</value>
+  </data>
+    
+    <data name="Today" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+    
 </root>

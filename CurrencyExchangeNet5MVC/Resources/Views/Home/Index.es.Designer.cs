@@ -112,5 +112,245 @@ namespace CurrencyExchangeNet5MVC.Resources.Views.Home {
                 return ResourceManager.GetString("MetaDescription", resourceCulture);
             }
         }
+        
+        internal static string GoldAndCurrencyRatesToday {
+            get {
+                return ResourceManager.GetString("GoldAndCurrencyRatesToday", resourceCulture);
+            }
+        }
+        
+        internal static string CodeUSD {
+            get {
+                return ResourceManager.GetString("CodeUSD", resourceCulture);
+            }
+        }
+        
+        internal static string CodeEUR {
+            get {
+                return ResourceManager.GetString("CodeEUR", resourceCulture);
+            }
+        }
+        
+        internal static string CodeGBP {
+            get {
+                return ResourceManager.GetString("CodeGBP", resourceCulture);
+            }
+        }
+        
+        internal static string CodeXAU {
+            get {
+                return ResourceManager.GetString("CodeXAU", resourceCulture);
+            }
+        }
+        
+        internal static string NameUSD {
+            get {
+                return ResourceManager.GetString("NameUSD", resourceCulture);
+            }
+        }
+        
+        internal static string NameEUR {
+            get {
+                return ResourceManager.GetString("NameEUR", resourceCulture);
+            }
+        }
+        
+        internal static string NameGBP {
+            get {
+                return ResourceManager.GetString("NameGBP", resourceCulture);
+            }
+        }
+        
+        internal static string NameXAU {
+            get {
+                return ResourceManager.GetString("NameXAU", resourceCulture);
+            }
+        }
+        
+        internal static string Name24k10Gr {
+            get {
+                return ResourceManager.GetString("Name24k10Gr", resourceCulture);
+            }
+        }
+        
+        internal static string Name22k10Gr {
+            get {
+                return ResourceManager.GetString("Name22k10Gr", resourceCulture);
+            }
+        }
+        
+        internal static string Name24kTola {
+            get {
+                return ResourceManager.GetString("Name24kTola", resourceCulture);
+            }
+        }
+        
+        internal static string Name22kTola {
+            get {
+                return ResourceManager.GetString("Name22kTola", resourceCulture);
+            }
+        }
+        
+        internal static string Name24kGr {
+            get {
+                return ResourceManager.GetString("Name24kGr", resourceCulture);
+            }
+        }
+        
+        internal static string NameCeyrek {
+            get {
+                return ResourceManager.GetString("NameCeyrek", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyTodayIncreasedText {
+            get {
+                return ResourceManager.GetString("CurrencyTodayIncreasedText", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyTodayDecreasedText {
+            get {
+                return ResourceManager.GetString("CurrencyTodayDecreasedText", resourceCulture);
+            }
+        }
+        
+        internal static string Today {
+            get {
+                return ResourceManager.GetString("Today", resourceCulture);
+            }
+        }
+        
+        internal static string CountryPKR {
+            get {
+                return ResourceManager.GetString("CountryPKR", resourceCulture);
+            }
+        }
+        
+        internal static string CountryTRY {
+            get {
+                return ResourceManager.GetString("CountryTRY", resourceCulture);
+            }
+        }
+        
+        internal static string CountryBRL {
+            get {
+                return ResourceManager.GetString("CountryBRL", resourceCulture);
+            }
+        }
+        
+        internal static string CountryCLP {
+            get {
+                return ResourceManager.GetString("CountryCLP", resourceCulture);
+            }
+        }
+        
+        internal static string CountryVES {
+            get {
+                return ResourceManager.GetString("CountryVES", resourceCulture);
+            }
+        }
+        
+        internal static string CountryMXN {
+            get {
+                return ResourceManager.GetString("CountryMXN", resourceCulture);
+            }
+        }
+        
+        internal static string CountryUYU {
+            get {
+                return ResourceManager.GetString("CountryUYU", resourceCulture);
+            }
+        }
+        
+        internal static string CountryPEN {
+            get {
+                return ResourceManager.GetString("CountryPEN", resourceCulture);
+            }
+        }
+        
+        internal static string CountryBOB {
+            get {
+                return ResourceManager.GetString("CountryBOB", resourceCulture);
+            }
+        }
+        
+        internal static string CountryPYG {
+            get {
+                return ResourceManager.GetString("CountryPYG", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyTRY {
+            get {
+                return ResourceManager.GetString("CurrencyTRY", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyPakistan {
+            get {
+                return ResourceManager.GetString("CurrencyPakistan", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyBRL {
+            get {
+                return ResourceManager.GetString("CurrencyBRL", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyCLP {
+            get {
+                return ResourceManager.GetString("CurrencyCLP", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyVES {
+            get {
+                return ResourceManager.GetString("CurrencyVES", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyMXN {
+            get {
+                return ResourceManager.GetString("CurrencyMXN", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyUYU {
+            get {
+                return ResourceManager.GetString("CurrencyUYU", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyPEN {
+            get {
+                return ResourceManager.GetString("CurrencyPEN", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyBOB {
+            get {
+                return ResourceManager.GetString("CurrencyBOB", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyPYG {
+            get {
+                return ResourceManager.GetString("CurrencyPYG", resourceCulture);
+            }
+        }
+        
+        internal static string CountryZAR {
+            get {
+                return ResourceManager.GetString("CountryZAR", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyZAR {
+            get {
+                return ResourceManager.GetString("CurrencyZAR", resourceCulture);
+            }
+        }
     }
 }

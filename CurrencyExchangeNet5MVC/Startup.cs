@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
+using CurrencyExchangeNet5MVC.Utilities;
 using IO.Swagger.Api;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -50,18 +52,40 @@ namespace CurrencyExchangeNet5MVC
             app.UseRouting();
 
             app.UseAuthorization();
+            
+            RequestLocalizationOptions requestLocalizationOptions = new RequestLocalizationOptions();
+            var supportedCultures = new CultureInfo[] {
+                  new CultureInfo("en"),
+                  new CultureInfo("es"),
+                  new CultureInfo("ur"),
+                  new CultureInfo("fr"),
+                  new CultureInfo("ar"),
+                  new CultureInfo("pt"),
+                  new CultureInfo("tr")
 
-            var supportedCultures = new[] { "en", "es", "fr", "ur", "ar", "pt" };
-            var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0])
-                .AddSupportedCultures(supportedCultures)
-                .AddSupportedUICultures(supportedCultures);
+              }.ToList();
 
-            app.UseRequestLocalization(localizationOptions);
+            requestLocalizationOptions.SupportedCultures = requestLocalizationOptions.SupportedUICultures = supportedCultures;
+
+
+            requestLocalizationOptions.SetDefaultCulture("en");
+            requestLocalizationOptions.RequestCultureProviders.Insert(0, new RouteValueRequestCultureProvider() { Options = requestLocalizationOptions });
+
+            app.UseRequestLocalization(requestLocalizationOptions);
+
+            //var supportedCultures = new[] { "en", "es", "fr", "ur", "ar", "pt" };
+            //var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0])
+            //    .AddSupportedCultures(supportedCultures)
+            //    .AddSupportedUICultures(supportedCultures);
+
+            //app.UseRequestLocalization(localizationOptions);
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{culture=en}/{controller=Home}/{action=Index}/{id?}",
+                    defaults: new {culture= "en", controller = "Home", action = "Index" });
+                    
             });
         }
     }

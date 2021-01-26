@@ -16,21 +16,21 @@ namespace CurrencyExchangeNet5MVC.Resources.Views.Home {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Index_pt {
+    internal class Index_tr {
         
         private static System.Resources.ResourceManager resourceMan;
         
         private static System.Globalization.CultureInfo resourceCulture;
         
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Index_pt() {
+        internal Index_tr() {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.Equals(null, resourceMan)) {
-                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("CurrencyExchangeNet5MVC.Resources.Views.Home.Index.pt", typeof(Index_pt).Assembly);
+                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("CurrencyExchangeNet5MVC.Resources.Views.Home.Index.tr", typeof(Index_tr).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -104,12 +104,6 @@ namespace CurrencyExchangeNet5MVC.Resources.Views.Home {
         internal static string DescriptionTolaCountries {
             get {
                 return ResourceManager.GetString("DescriptionTolaCountries", resourceCulture);
-            }
-        }
-        
-        internal static string MetaDescription {
-            get {
-                return ResourceManager.GetString("MetaDescription", resourceCulture);
             }
         }
         
@@ -215,15 +209,15 @@ namespace CurrencyExchangeNet5MVC.Resources.Views.Home {
             }
         }
         
-        internal static string Today {
-            get {
-                return ResourceManager.GetString("Today", resourceCulture);
-            }
-        }
-        
         internal static string CountryPKR {
             get {
                 return ResourceManager.GetString("CountryPKR", resourceCulture);
+            }
+        }
+        
+        internal static string CurrencyPKR {
+            get {
+                return ResourceManager.GetString("CurrencyPKR", resourceCulture);
             }
         }
         
@@ -344,6 +338,12 @@ namespace CurrencyExchangeNet5MVC.Resources.Views.Home {
         internal static string CurrencyZAR {
             get {
                 return ResourceManager.GetString("CurrencyZAR", resourceCulture);
+            }
+        }
+        
+        internal static string Today {
+            get {
+                return ResourceManager.GetString("Today", resourceCulture);
             }
         }
     }

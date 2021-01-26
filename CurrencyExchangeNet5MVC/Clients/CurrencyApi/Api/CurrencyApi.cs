@@ -15,8 +15,8 @@ namespace IO.Swagger.Api
         ///  
         /// </summary>
         /// <param name="localCurrencySymbol"></param>
-        /// <returns>List&lt;CurrencyPairNameValue&gt;</returns>
-        List<CurrencyPairNameValue> CurrencyGet (string localCurrencySymbol);
+        /// <returns>CurrencyPairsWrapper</returns>
+        CurrencyPairsWrapper CurrencyGet (string localCurrencySymbol);
     }
   
     /// <summary>
@@ -76,8 +76,8 @@ namespace IO.Swagger.Api
         ///  
         /// </summary>
         /// <param name="localCurrencySymbol"></param> 
-        /// <returns>List&lt;CurrencyPairNameValue&gt;</returns>            
-        public List<CurrencyPairNameValue> CurrencyGet (string localCurrencySymbol)
+        /// <returns>CurrencyPairsWrapper</returns>            
+        public CurrencyPairsWrapper CurrencyGet (string localCurrencySymbol)
         {
             
     
@@ -103,7 +103,7 @@ namespace IO.Swagger.Api
             else if (((int)response.StatusCode) == 0)
                 throw new ApiException ((int)response.StatusCode, "Error calling CurrencyGet: " + response.ErrorMessage, response.ErrorMessage);
     
-            return (List<CurrencyPairNameValue>) ApiClient.Deserialize(response.Content, typeof(List<CurrencyPairNameValue>), response.Headers);
+            return (CurrencyPairsWrapper) ApiClient.Deserialize(response.Content, typeof(CurrencyPairsWrapper), response.Headers);
         }
     
     }
